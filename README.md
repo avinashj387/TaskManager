@@ -4,12 +4,8 @@ A full-stack web application to manage tasks using: - .NET Core Web API (C#) - S
 
 
 
-# ✅ Git Command Cheatsheet – Task Manager Project
 
-## 🔁 Initialize Local Repository
-```bash
 git init
-```
 
 ## 🔗 Add Remote Repository
 ```bash
