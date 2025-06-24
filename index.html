@@ -1,1 +1,22 @@
-<h1>HEllO  WORLD</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Task Manager</h1>
+
+  <form id="taskForm">
+    <input type="text" id="title" placeholder="Task Title" required />
+    <button type="submit">Add Task</button>
+  </form>
+
+  <ul id="taskList"></ul>
+
+  <!-- Make sure scripts load after HTML is ready -->
+  <script src="task.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
